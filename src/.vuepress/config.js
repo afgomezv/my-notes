@@ -1,5 +1,3 @@
-const { description } = require("../../package");
-
 module.exports = {
   dest: "docs",
   base: "/my-notes",
