@@ -1,6 +1,8 @@
 const { description } = require("../../package");
 
 module.exports = {
+  dest: "docs",
+  base: "/my-notes",
   title: "FunCode",
   description: "Guia de mis Notas",
   head: [
@@ -18,8 +20,6 @@ module.exports = {
     //docsDir: "",
     editLinkText: "",
     lastUpdated: false,
-    dest: "docs",
-    base: "My-notes",
     nav: [
       {
         text: "Home",
